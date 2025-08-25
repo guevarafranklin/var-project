@@ -24,6 +24,7 @@ class User extends Authenticatable
         'position',
         'phone',
         'country',
+    'is_admin',
         'email',
         'password',
     ];
@@ -48,6 +49,7 @@ class User extends Authenticatable
         return [
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
+            'is_admin' => 'boolean',
         ];
     }
 

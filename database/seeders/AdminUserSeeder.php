@@ -22,6 +22,7 @@ class AdminUserSeeder extends Seeder
                 'phone' => null,
                 'password' => 'Guevara1602',
                 'email_verified_at' => now(),
+                'is_admin' => true,
             ]
         );
     }
