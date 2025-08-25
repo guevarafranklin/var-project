@@ -138,4 +138,6 @@
     body {
         @apply bg-background text-foreground;
     }
+    .btn { @apply bg-neutral-900 text-white px-3 py-1 rounded hover:bg-neutral-800 disabled:opacity-50; }
+    .input { @apply border rounded px-2 py-1 w-full; }
 }
